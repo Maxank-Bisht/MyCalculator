@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
 *{
      padding: 0;
@@ -8,12 +9,13 @@
 body{
      background-color: rgb(157, 225, 241);
      box-sizing: border-box;
-     font-family: 'Roboto', sans-serif;
+     /* font-family: 'Roboto', sans-serif; */
+     font-family: 'Poppins', sans-serif;
      user-select: none; 
 }
 .cal{
      height: 50vh;
-     width: 50vw;
+     width: 75vw;
      background-color: white;
      margin: auto;
      margin-top: 20vh;
