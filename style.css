@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+     padding: 0;
+     margin: 0;
+}
+
+body{
+     background-color: rgb(157, 225, 241);
+     box-sizing: border-box;
+     font-family: 'Roboto', sans-serif;
+     user-select: none; 
+}
+.cal{
+     height: 50vh;
+     width: 50vw;
+     background-color: white;
+     margin: auto;
+     margin-top: 20vh;
+     border-radius: 1rem;
+}
+.output{
+     height: 30%;
+     width: 100%;
+     background-color: rgb(46, 46, 46);
+     border-top-left-radius: 1rem;
+     border-top-right-radius: 1rem;
+     color:white;
+     display: flex;
+     flex-direction: row-reverse;
+     justify-content: start;
+     align-items: center;
+     font-size: 4rem;
+     /* padding-left: 2rem; */ 
+}
+.display{
+     padding-right: 2rem;
+     overflow-x: auto;
+}
+.operations{
+     height: 14%;
+     width: 100%;
+     display: flex;
+     background-color: whitesmoke;
+     box-sizing: border-box;
+     border:1px solid gray;
+
+}
+.numberEquals{
+     height: 56%;
+     width: 100%;
+     display: flex;
+     align-items: center;
+}
+
+.operation{
+     height: 100%;
+     width: 25%;
+     font-size: 2.5rem;
+     box-sizing: border-box;
+     border:1px solid gray;
+     text-align: center;
+     cursor: pointer;
+}
+
+.numbers{
+     display: inline-block;
+     height: 100%;
+     width: 75%;
+     border:1px solid gray;
+     border-top: none;
+     box-sizing: border-box;
+     border-bottom-left-radius: 1rem;
+}
+.equals{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 100%;
+     width: 25%;
+     font-size: 2.5rem;
+     box-sizing: border-box;
+     border:1px solid gray;
+     border-bottom-right-radius:1rem;
+     background-color: #ff4500;
+     cursor: pointer;
+}
+.row{
+     display: flex;
+     align-items: center;
+     justify-content:center;
+     height: 25%;
+     width: 100%;
+}
+.col3{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 100%;
+     width: 33.33%;
+     font-size: 2rem;
+     box-sizing: border-box;
+     border:1px solid #808080;
+     text-align: center;
+     cursor:default;
+     
+}
+.innerEquals{
+    
+     height: 100%;
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
